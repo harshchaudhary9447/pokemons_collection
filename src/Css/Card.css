@@ -1,0 +1,21 @@
+.input-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .input {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    width: 30%;
+    margin-left: 70px; /* Margin from left */
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: #3498db; /* Border color on focus */
+  }

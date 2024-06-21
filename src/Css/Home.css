@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap');
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px; /* Space between buttons */
+    margin-top: 30px;
+  }
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #f39c12; /* Background color changed to orange */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #e67e22; /* Darker shade of orange on hover */
+    transform: translateY(-2px);
+  }
+  
+  .button:active {
+    background-color: #d35400; /* Even darker shade of orange on click */
+    transform: translateY(0);
+  }
